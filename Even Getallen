@@ -1,0 +1,4 @@
+Tellen = 20
+while Tellen < 48:
+    Tellen = Tellen + 2
+    print (Tellen)
