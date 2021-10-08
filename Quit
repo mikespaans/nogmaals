@@ -1,0 +1,9 @@
+Vraag = input("Wat is het woord? ")
+Aantal = 1
+while Vraag != "Quit":
+    print ("Helaas dat was niet het goede woord")
+    Aantal = Aantal + 1
+    Vraag = input("Wat is het woord? ")
+if Vraag == "Quit":
+    print ("Goed geraden dat was het woord!")
+    print ("U heeft het " , Aantal, "na 3 keer geraden.")
