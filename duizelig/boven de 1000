@@ -1,0 +1,7 @@
+StartGetal = 50
+Eindgetal = StartGetal + StartGetal
+while Eindgetal <= 1000 and StartGetal <= 68:
+    StartGetal = StartGetal + 1
+    Eindgetal = 1000
+    print (StartGetal)
+    print (Eindgetal)
