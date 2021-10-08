@@ -1,0 +1,5 @@
+Aftellen = 31
+while Aftellen >= 1:
+    print (Aftellen - 1)
+    Aftellen = Aftellen - 1
+print ("De lancering is gestart!")
