@@ -1,0 +1,7 @@
+Uren = 0
+while Uren <= 11:
+    Uren = Uren + 1
+    print (Uren , "AM")
+while Uren >=12 and Uren <= 23:
+    Uren = Uren + 1
+    print (Uren , "PM")
