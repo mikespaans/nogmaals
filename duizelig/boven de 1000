@@ -1,7 +1,9 @@
 StartGetal = 50
+HoeveelheidGetal = 50
 Eindgetal = StartGetal + StartGetal
-while Eindgetal <= 1000 and StartGetal <= 68:
+while HoeveelheidGetal <= 68 and Eindgetal <= 1000:
+    HoeveelheidGetal = HoeveelheidGetal + 1
     StartGetal = StartGetal + 1
-    Eindgetal = 1000
+    Eindgetal = StartGetal + Eindgetal
     print (StartGetal)
     print (Eindgetal)
